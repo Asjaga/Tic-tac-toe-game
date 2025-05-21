@@ -48,20 +48,13 @@ Just open the `index.html` file in your browser — no build step required!
 ## 📂 Folder Structure
 
 ```
-📁 tic-tac-toe/
+📁 tic-tac-toe-game/
  ┣ 📄 index.html
  ┣ 📄 style.css
  ┣ 📄 script.js
- ┗ 📁 screenshots/
-     ┣ 📄 desktop.png
-     ┗ 📄 mobile.png
 ```
 
 ## 🙌 Author
 
 Made with ❤️ by \[Aakash Singh]
 
-
-```
-
----
