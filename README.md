@@ -1,8 +1,3 @@
-Here’s a clean and beginner-friendly `README.md` content for your **Tic Tac Toe Game** project, specifically styled for your HTML/CSS responsive game:
-
----
-
-````markdown
 # 🎮 Tic Tac Toe Game
 
 A simple, clean, and responsive **Tic Tac Toe** web game built using **HTML, CSS, and JavaScript**. This project is fully responsive for **mobile screens** and features a modern, shadowed UI with intuitive button interactions.
