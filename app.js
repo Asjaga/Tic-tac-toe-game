@@ -1,7 +1,6 @@
 let boxes = document.querySelectorAll(".btn");
 let msg = document.querySelector(".msg");
-let newgame = document.querySelector(".new-game"); 
-let reset = document.querySelector(".reset"); 
+let newgame = document.querySelector(".finalbtn"); 
 let count = 0;
 let turnO=true;
 
@@ -43,8 +42,7 @@ let checkwinner = ()=>{
         if(pos1text === pos2text && pos2text === pos3text){
             msg.innerText = `Winner is ${pos1text}`;
             disableBox();
-            newgame.classList.remove("hide");
-            reset.classList.add("hide");
+            newgame.innerText = "New Game";
             return true;
         }
    }
@@ -52,8 +50,7 @@ let checkwinner = ()=>{
 
 let gamedraw = () =>{
     msg.innerText = "Game was Draw";
-    newgame.classList.remove("hide");
-    reset.classList.add("hide");
+    newgame.innerText = "New Game";
 }
 
 boxes.forEach((box) =>{
@@ -80,21 +77,12 @@ boxes.forEach((box) =>{
  
 });
 
-
 newgame.addEventListener("click", ()=>{
     enableBox();
     msg.innerText = "New Game";
-    newgame.classList.add("hide");
-    reset.classList.remove("hide");
+    newgame.innerText = "Reset Game";
     count = 0;
 });
-
-reset.addEventListener("click",() =>{
-    enableBox();
-    msg.innerText = "New Game";
-    newgame.classList.add("hide");
-    count = 0; 
-})
 
 
 
