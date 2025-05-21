@@ -114,8 +114,8 @@ h1{
   .game {
     width: 90%;
     height: 60vmin;
-    column-gap: 0.5rem;
-    row-gap: 0.1rem;
+    column-gap: 0.6rem;
+    row-gap: 0.6rem;
   }
 
   .btn {
@@ -125,7 +125,7 @@ h1{
   }
 
   .finalbtn {
-    margin-top: 1.8rem;
+    margin-top: 2.4rem;
     height: 3.2rem;
     width: 7rem;
     font-size: 1rem;
