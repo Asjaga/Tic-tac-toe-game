@@ -42,7 +42,8 @@ Just open the `index.html` file in your browser — no build step required!
 
 > **Mobile View**
 > 
-> ![image](https://github.com/user-attachments/assets/b4be6919-18cc-409f-84fe-529cf0f6185c)
+> ![image](https://github.com/user-attachments/assets/770299c8-a193-4098-a4ae-a0b4f2a015a2)
+
 
 
 ## 📂 Folder Structure
