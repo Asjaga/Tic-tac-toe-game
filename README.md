@@ -36,10 +36,12 @@ Just open the `index.html` file in your browser — no build step required!
 ## 🖼️ Screenshots
 
 > **Desktop View**
+> 
 > ![image](https://github.com/user-attachments/assets/716b0bae-7e11-4faa-a70e-89a5b70da2f2)
 
 
 > **Mobile View**
+> 
 > ![image](https://github.com/user-attachments/assets/b4be6919-18cc-409f-84fe-529cf0f6185c)
 
 
