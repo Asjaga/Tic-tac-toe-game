@@ -1,1 +1,70 @@
-# Tic-tac-toe-game
+Here’s a clean and beginner-friendly `README.md` content for your **Tic Tac Toe Game** project, specifically styled for your HTML/CSS responsive game:
+
+---
+
+````markdown
+# 🎮 Tic Tac Toe Game
+
+A simple, clean, and responsive **Tic Tac Toe** web game built using **HTML, CSS, and JavaScript**. This project is fully responsive for **mobile screens** and features a modern, shadowed UI with intuitive button interactions.
+
+## 📱 Features
+
+- Classic 3x3 Tic Tac Toe board.
+- Responsive layout for both desktop and mobile.
+- Clear UI with interactive buttons.
+- Displays game winner or draw.
+- "New Game" and "Reset" functionality.
+
+## 🧩 Tech Stack
+
+- **HTML5**
+- **CSS3** (Flexbox layout)
+- **JavaScript** (Vanilla)
+
+## 📐 Responsive Design
+
+- Works well on screens **≤ 480px** (mobile phones).
+- Maintains visual proportions using **vmin** units.
+- Automatically adjusts layout and font sizes for small devices.
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/tic-tac-toe-game.git
+````
+
+### 2. Open the project
+
+Just open the `index.html` file in your browser — no build step required!
+
+## 🖼️ Screenshots
+
+> **Desktop View**
+> ![image](https://github.com/user-attachments/assets/716b0bae-7e11-4faa-a70e-89a5b70da2f2)
+
+
+> **Mobile View**
+> ![image](https://github.com/user-attachments/assets/b4be6919-18cc-409f-84fe-529cf0f6185c)
+
+
+## 📂 Folder Structure
+
+```
+📁 tic-tac-toe/
+ ┣ 📄 index.html
+ ┣ 📄 style.css
+ ┣ 📄 script.js
+ ┗ 📁 screenshots/
+     ┣ 📄 desktop.png
+     ┗ 📄 mobile.png
+```
+
+## 🙌 Author
+
+Made with ❤️ by \[Aakash Singh]
+
+
+```
+
+---
