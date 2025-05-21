@@ -85,10 +85,6 @@ h1{
     opacity: 50%;
     cursor: pointer;
 }
-.new-game{
-    margin-left: 0.8rem;
-    
-}
 
 
 .hide{
@@ -132,7 +128,7 @@ h1{
   }
   p{
     color: #edf2f4;
-    margin-top: 2rem;
+    margin-top: 1.9rem;
 }
 }
 
