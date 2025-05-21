@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8d99ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+.container{
+    background-color: #2b2d42;
+    height: 93vmin;
+    width: 60vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: #edf2f4;
+    text-shadow: 5px 5px 15px black;
+
+}
+
+.msg{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-shadow: 5px 5px 15px black;
+    color: white;
+
+}
+.game{
+    background-color: #2b2d42;
+    height: 50vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.8rem;
+    row-gap: 0.1rem;
+    /* border-radius:1.2rem ; */
+}
+
+.btn{
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 10px;
+    font-size: 5rem;
+    box-shadow: 0PX 0px 7px black;
+    background-color: #edf2f4;
+    color: black;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.finalbtn{
+    height: 4rem;
+    width: 10rem;
+    padding: 0.4rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    background-color: #1b263b;
+    color: white;
+    border: 1.5px solid white;
+    outline: none;
+    cursor: pointer;
+
+}
+.finalbtn:active{
+    border: 1.5px solid black;
+    opacity: 50%;
+    cursor: pointer;
+}
+.new-game{
+    margin-left: 0.8rem;
+    
+}
+
+
+.hide{
+    display: none;
+}
+
+
+@media (max-width: 480px) {
+  .container {
+    width: 90vmin;
+    height: 125vmin;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .msg {
+    font-size: 1.5rem;
+  }
+
+  .game {
+    width: 90%;
+    height: 60vmin;
+    column-gap: 0.5rem;
+    row-gap: 0.1rem;
+  }
+
+  .btn {
+    height: 20vmin;
+    width: 20vmin;
+    font-size: 2.5rem;
+  }
+
+  .finalbtn {
+    margin-top: 1.8rem;
+    height: 3.2rem;
+    width: 7rem;
+    font-size: 1rem;
+  }
+  p{
+    color: #edf2f4;
+    margin-top: 2rem;
+}
+}
+
+
+p{
+    color: #edf2f4;
+    margin-top: 2.3rem;
+}
