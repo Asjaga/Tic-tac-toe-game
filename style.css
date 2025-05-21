@@ -99,7 +99,7 @@ h1{
 @media (max-width: 480px) {
   .container {
     width: 90vmin;
-    height: 125vmin;
+    height: 130vmin;
   }
 
   h1 {
@@ -108,7 +108,7 @@ h1{
   }
 
   .msg {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .game {
@@ -125,7 +125,7 @@ h1{
   }
 
   .finalbtn {
-    margin-top: 2.4rem;
+    margin-top: 2.6rem;
     height: 3.2rem;
     width: 7rem;
     font-size: 1rem;
