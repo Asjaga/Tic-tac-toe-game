@@ -5,12 +5,15 @@ let reset = document.querySelector(".reset");
 let count = 0;
 let turnO=true;
 
+for(box of boxes){
+    box.disabled = true;
+}
+
 let disableBox= () =>{
     for(box of boxes){
         box.disabled = true;
     }
     
-
 }
 let enableBox= () =>{
     for(box of boxes){
@@ -40,6 +43,8 @@ let checkwinner = ()=>{
         if(pos1text === pos2text && pos2text === pos3text){
             msg.innerText = `Winner is ${pos1text}`;
             disableBox();
+            newgame.classList.remove("hide");
+            reset.classList.add("hide");
             return true;
         }
    }
@@ -48,6 +53,7 @@ let checkwinner = ()=>{
 let gamedraw = () =>{
     msg.innerText = "Game was Draw";
     newgame.classList.remove("hide");
+    reset.classList.add("hide");
 }
 
 boxes.forEach((box) =>{
@@ -79,6 +85,7 @@ newgame.addEventListener("click", ()=>{
     enableBox();
     msg.innerText = "New Game";
     newgame.classList.add("hide");
+    reset.classList.remove("hide");
     count = 0;
 });
 
@@ -87,7 +94,6 @@ reset.addEventListener("click",() =>{
     msg.innerText = "New Game";
     newgame.classList.add("hide");
     count = 0; 
-
 })
 
 

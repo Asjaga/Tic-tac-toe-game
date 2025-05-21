@@ -141,3 +141,8 @@ p{
     color: #edf2f4;
     margin-top: 2.3rem;
 }
+
+.disabled-box {
+  pointer-events: none; /* Prevent click */
+  opacity: 0.5;          /* Show it's inactive (optional) */
+}
